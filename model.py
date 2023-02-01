@@ -1,4 +1,4 @@
-
+# import view
 
 def import_dictionary():
     name = input(f'Введите имя:\n ')
@@ -37,13 +37,5 @@ def search_phone():
         print(name)
 
         return dictionary
-      
-            # phrasa = input('Введите ваш запрос: ')
 
-            # # response = telephone_list(query)
-            # if phrasa in telephone_list.keys():
-            #  print(f'{telephone_list[phrasa]}')
-            # else:       
-            #  print('Не могу понять вас. Пожалуйста, повторите ваш запрос.')
 
-search_phone()

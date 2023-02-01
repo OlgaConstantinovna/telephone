@@ -1,8 +1,10 @@
 import view
 import model_menu
+  
 
 def start():
     view.creat_menu()
+    select()
 
 def select():
     view.imput_number()
